@@ -92,7 +92,7 @@ python main.py
 
 ## 角色配置说明
 
-### persona.yaml
+### persona.yaml（由微信聊天记录导出工具wxflow导出）
 
 包含角色的对话示例，格式：
 
@@ -109,7 +109,7 @@ conversations:
     content: "你好呀~"
 ```
 
-### persona_bible.txt
+### persona_bible.txt（在web中通过yaml文件分析后，下载后丢给kimi分析人物性格，粘贴到web中对应位置）
 
 角色的详细人格描述，包括：
 - 核心世界观
@@ -125,9 +125,9 @@ conversations:
 4. 在 `persona_bible.txt` 中完善人格描述
 5. 启动应用开始对话
 
-## TTS 语音合成
+## TTS 语音合成（上传个人录音）
 
-在 `settings.json` 中配置 `tts_key` 即可启用语音合成。
+在 `settings.json` 中配置 `tts_key` 即可启用语音合成。（上传个人录音）
 
 支持的 TTS 服务：
 - 阿里云 DashScope
