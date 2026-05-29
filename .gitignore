@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda_env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & Models (large files)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.exe
+*.dll
+*.whl
+*.pkl
+*.npz
+*.mat
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.sqlite
+*.sqlite3
+*.db
+*.mp4
+*.avi
+*.mov
+
+# Results & Logs
+logs/
+results/
+runs/
+wandb/
+*.log
+events.out.tfevents.*
+
+# Secrets
+.env
+*.env
+config.yaml
+config.yml
+db_config.json
+secrets.json
+credentials.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data directories
+data/
+datasets/
+saved_models/
+models/

@@ -1,0 +1,7 @@
+{
+    "provider": "deepseek",
+    "llm_key": "YOUR_API_KEY_HERE",
+    "llm_url": "https://api.deepseek.com",
+    "tts_key": "",
+    "ref_text": ""
+}
